@@ -7,6 +7,8 @@ This project demonstrates how to use the **Gemini API** in 3 distinct ways.
 
 It includes Python modules for setting up configuration, making authenticated requests to Gemini, and formatting responses.
 
+[Companion blog](https://blog.prashu.com/3-ways-to-use-gemini-2-5-pro-experimental-b84952cc4deb)
+
 **Disclaimer:**
 _This code is a demonstration provided for educational purposes. It is intended to showcase a specific concept or functionality. Please note that this is not production-ready code. For best practices and detailed guidance on how to use similar implementations in a production environment, refer to the official documentation and resources._
 
