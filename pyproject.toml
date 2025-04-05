@@ -1,0 +1,39 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "gemini25"
+version = "0.1.0"
+description = "Demonstrating the 3 ways of using Gemini."
+authors = ["Prashanth Subrahmanyam <ksprashanth82@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{ include = "gemini25" }]
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+google-genai = ">=0.3.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.9.1"
+ruff = "^0.11.4"
+mypy = "^1.15.0"
+pre-commit = "^4.2.0"
+
+[tool.black]
+line-length = 88
+target-version = ["py38", "py39", "py310", "py311", "py312"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py38"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "C90"]
+ignore = ["E501"]
+
+[tool.mypy]
+python_version = 3.9
+strict = true
+ignore_missing_imports = true

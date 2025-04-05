@@ -1,0 +1,15 @@
+# .gitignore
+config.py
+
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+build/
+dist/
+.env
+.venv
+.cache/
+.mypy_cache/
+coverage.*
+htmlcov/
